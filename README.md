@@ -1,2 +1,2 @@
 # WebsiteCoding
-Developing website which will include diferent sections with tasks. For now some of the sections will be HTML, CSS, JavaScript and others.
+SPA Application made with main frameworks Twitter Bootstrap 3 and Knockout.js and generated Architecture By Yeoman.
