@@ -9,8 +9,8 @@ define(['jquery', 'knockout', './router', 'bootstrap', 'knockout-projections'], 
     template: { require: 'text!components/about-page/about.html' }
   });
 
-ko.components.register('first-homework', {
-    template: { require: 'text!components/first-homework/first-homework.html' }
+ko.components.register('funny-face', {
+    template: { require: 'text!components/funny-face/funny-face.html' }
   });
   
 

@@ -14,7 +14,7 @@ define(["knockout", "crossroads", "hasher"], function(ko, crossroads, hasher) {
             { url: '',          params: { page: 'home-page' } },
             { url: 'about',     params: { page: 'about-page' } },
             { url: 'contacts',     params: { page: 'contacts-page' } },
-            { url: 'first-homework',     params: { page: 'first-homework' } },
+            { url: 'funny-face',     params: { page: 'funny-face' } }
         ]
     });
 
