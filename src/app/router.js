@@ -13,8 +13,12 @@ define(["knockout", "crossroads", "hasher"], function(ko, crossroads, hasher) {
         routes: [
             { url: '',          params: { page: 'home-page' } },
             { url: 'about',     params: { page: 'about-page' } },
+<<<<<<< HEAD
             { url: 'contacts',     params: { page: 'contacts-page' } },
             { url: 'funny-face',     params: { page: 'funny-face' } }
+=======
+            { url: 'contacts',     params: { page: 'contacts-page' } }
+>>>>>>> parent of 606ef4d... Adding first-homework component
         ]
     });
 
