@@ -9,7 +9,7 @@ define(['jquery', 'knockout', './router', 'bootstrap', 'knockout-projections'], 
     template: { require: 'text!components/about-page/about.html' }
   });
 
-<<<<<<< HEAD
+
 ko.components.register('funny-face', {
     template: { require: 'text!components/funny-face/funny-face.html' }
   });
@@ -17,8 +17,6 @@ ko.components.register('funny-face', {
 
 
 
-=======
->>>>>>> parent of 606ef4d... Adding first-homework component
 
   // [Scaffolded component registrations will be inserted here. To retain this feature, don't remove this comment.]
     ko.components.register('contacts-page', {
