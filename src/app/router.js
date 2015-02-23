@@ -11,10 +11,12 @@ define(["knockout", "crossroads", "hasher"], function(ko, crossroads, hasher) {
 
     return new Router({
         routes: [
-            { url: '',          params: { page: 'home-page' } },
-            { url: 'about',     params: { page: 'about-page' } },
-            { url: 'contacts',     params: { page: 'contacts-page' } },
-            { url: 'funny-face',     params: { page: 'funny-face' } }
+            { url: '',          params: { page: 'html-css-page' } },
+            { url: 'javascript',     params: { page: 'javascript-page' } },
+            { url: 'angularjs',     params: { page: 'angularjs-page' } },
+            { url: 'problem-one',     params: { page: 'problem-one-page' } },
+            { url: 'problem-two',     params: { page: 'problem-two-page' } },
+            { url: 'problem-three',     params: { page: 'problem-three-page' } },
         ]
     });
 

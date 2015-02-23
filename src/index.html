@@ -7,15 +7,23 @@
     <!-- build:css -->
       <link href="bower_modules/components-bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <link href="css/styles.css" rel="stylesheet">
+      <!-- Code Syntax Highlight -->
+      <link type="text/css" rel="stylesheet" href="http://ajblk.github.io/SyntaxHighlightGenerator-v3.0/styles/shCoreDefault.css"/>
+      <script type="text/javascript" src="http://ajblk.github.io/SyntaxHighlightGenerator-v3.0/scripts/sh-v3.0-min.js"></script>
+      <!-- Code Syntax Highlight -->
     <!-- endbuild -->
     <!-- build:js -->
       <script src="app/require.config.js"></script>
       <script data-main="app/startup" src="bower_modules/requirejs/require.js"></script>
+      
     <!-- endbuild -->
   </head>
   <body>
     <nav-bar params="route: route"></nav-bar>
     <div id="page" class="container" data-bind="component: { name: route().page, params: route }"></div>
-    
+
+    <!-- Code Syntax Highlight -->
+    <script type="text/javascript">SyntaxHighlighter.initialize();</script>
+    <!-- Code Syntax Highlight -->
   </body>
 </html>
